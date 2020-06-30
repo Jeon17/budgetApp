@@ -15,13 +15,13 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/heroku_ck6xrn9v", {
+mongoose.connect("mongodb://localhost/heroku_n59pdsdb", {
   useNewUrlParser: true,
   useFindAndModify: false,
 });
 
 const MONGODB_URI =
-  process.env.MONGODB_URL || "mongodb://localhost/heroku_ck6xrn9v";
+  process.env.MONGODB_URL || "mongodb://localhost/heroku_n59pdsdb";
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,
