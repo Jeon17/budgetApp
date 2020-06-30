@@ -1,0 +1,34 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": "12.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/Jeon17/budgetTracker"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeon17/budgetTracker/issues"
+  },
+  "homepage": "https://github.com/Jeon17/budgetTracker/blob/master/README.md",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.3",
+    "mongoose": "^5.9.20",
+    "morgan": "^1.10.0",
+    "node": "^14.4.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
