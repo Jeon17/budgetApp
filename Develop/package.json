@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github.com/Jeon17/budgetTracker"
+    "url": "git+https://github.com/github.com/Jeon17/budgetApp"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jeon17/budgetTracker/issues"
+    "url": "https://github.com/Jeon17/budgetApp/issues"
   },
-  "homepage": "https://github.com/Jeon17/budgetTracker/blob/master/README.md",
+  "homepage": "https://github.com/Jeon17/budgetApp/blob/master/README.md",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
